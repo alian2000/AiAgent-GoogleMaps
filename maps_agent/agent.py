@@ -21,7 +21,7 @@ if not MAPS_KEY:
 # 2. Define the Agent with BOTH Google Maps and Weather MCP Servers
 root_agent = LlmAgent(
     name="travel_assistant",
-    model=Gemini(model="gemini-2.5-flash"),
+    model=Gemini(model="gemini-3.5-flash"),
     instruction=(
         "You are an expert travel assistant. "
         "Use Google Maps tools for directions, routes, and places. "
